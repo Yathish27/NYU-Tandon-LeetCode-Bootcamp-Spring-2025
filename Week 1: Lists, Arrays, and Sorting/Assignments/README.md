@@ -16,6 +16,8 @@ We use the **two-pointer technique** to solve this problem in \(O(n)\) time.
 ### Visual Explanation
 ![Two Sum II Visualization](images/two_sum_ii.png)
 
+![Two Sum II Visualization](images/two_sum_ii-2.png)
+
 ---
 
 ## 2. Product of Array Except Self
@@ -33,6 +35,7 @@ We calculate the product of elements to the left and right of each index using t
 ### Visual Explanation
 ![Product of Array Except Self Visualization](images/product_of_array_except_self.png)
 
+![Product of Array Except Self Visualization](images/product_of_array_except_self-2.png)
 ---
 
 ## 3. Sort Colors
@@ -50,6 +53,7 @@ We use the **Dutch National Flag Algorithm** to sort the array in a single pass 
 ### Visual Explanation
 ![Sort Colors Visualization](images/sort_colors.png)
 
+![Sort Colors Visualization](images/sort_colors-2.png)
 ---
 
 ## How to Use This Repository
