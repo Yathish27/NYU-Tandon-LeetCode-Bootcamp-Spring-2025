@@ -16,7 +16,7 @@ We use the **two-pointer technique** to solve this problem in \(O(n)\) time.
 ### Visual Explanation
 ![Two Sum II Visualization](images/two_sum_ii.png)
 
-![Two Sum II Visualization](images/two_sum_ii-2.png)
+![Two Sum II Visualization](images/two_sum-2.png)
 
 ---
 
@@ -53,9 +53,6 @@ We use the **Dutch National Flag Algorithm** to sort the array in a single pass 
 ### Visual Explanation
 ![Sort Colors Visualization](images/sort_colors.png)
 
-![Sort Colors Visualization](images/sort_colors-2.png)
+![Sort Colors Visualization](images/sort-2.png)
 ---
 
-## How to Use This Repository
-
-1. Clone this repository:
