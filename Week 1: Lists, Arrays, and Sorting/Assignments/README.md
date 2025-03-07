@@ -1,9 +1,6 @@
-# Algorithm Problems with Image Uploads
+# Algorithm Problems 
 
-This repository contains solutions to popular algorithm problems, including **Two Sum II - Input Array Is Sorted**, **Product of Array Except Self**, and **Sort Colors**. Each section includes problem descriptions, solutions, and visual explanations with images.
-
----
-
+This repository contains solutions algorithm problems, including **Two Sum II - Input Array Is Sorted**, **Product of Array Except Self**, and **Sort Colors**.
 ## 1. Two Sum II - Input Array Is Sorted
 
 ### Problem Description
