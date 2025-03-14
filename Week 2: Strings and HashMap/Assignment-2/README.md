@@ -25,17 +25,15 @@ Output: 42
 
 ---
 
-## 2. Product of Array Except Self
+## 2. Find All Anagrams in a String
 
 ### Problem Description
-Given an integer array `nums`, return an array `answer` such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. Solve this without using division and in \(O(n)\) time.
+Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
 
 ### Example
-Input: `nums = [1,2,3,4]`  
-Output: `[24,12,8,6]`
+Input: s = "cbaebabacd", p = "abc"
+Output: [0,6]
 
-### Solution Explanation
-We calculate the product of elements to the left and right of each index using two passes over the array.
 
 ### Visual Explanation
 ![Product of Array Except Self Visualization](images/2.3.png)
