@@ -41,17 +41,19 @@ Output: [0,6]
 ![Product of Array Except Self Visualization](images/2.4.png)
 ---
 
-## 3. Sort Colors
+## 3.Reverse Words in a String
 
 ### Problem Description
-Given an array `nums` with \(n\) objects colored red (0), white (1), or blue (2), sort them in-place so that objects of the same color are adjacent and in the order red, white, and blue.
+Given an input string s, reverse the order of the words.
 
+A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
+
+Return a string of the words in reverse order concatenated by a single space.
 ### Example
-Input: `nums = [2,0,2,1,1,0]`  
-Output: `[0,0,1,1,2,2]`
+Input: s = "the sky is blue"
+Output: "blue is sky the"
 
-### Solution Explanation
-We use the **Dutch National Flag Algorithm** to sort the array in a single pass with constant space.
+
 
 ### Visual Explanation
 ![Sort Colors Visualization](images/2.5.png)
