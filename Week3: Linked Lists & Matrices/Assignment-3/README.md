@@ -14,9 +14,9 @@ Output: `[1,2]`
 We use the **two-pointer technique** to solve this problem in \(O(n)\) time.
 
 ### Visual Explanation
-![Two Sum II Visualization](images/two_sum_ii.png)
+![Two Sum II Visualization](3-1.png)
 
-![Two Sum II Visualization](images/two-sum-2.png)
+![Two Sum II Visualization](3-2-2.png)
 
 ---
 
@@ -33,9 +33,9 @@ Output: `[24,12,8,6]`
 We calculate the product of elements to the left and right of each index using two passes over the array.
 
 ### Visual Explanation
-![Product of Array Except Self Visualization](images/product_of_array_except_self.png)
+![Product of Array Except Self Visualization](3-3.png)
 
-![Product of Array Except Self Visualization](images/product_of_array_except_self-2.png)
+![Product of Array Except Self Visualization](3-4.png)
 ---
 
 ## 3. Sort Colors
@@ -51,9 +51,9 @@ Output: `[0,0,1,1,2,2]`
 We use the **Dutch National Flag Algorithm** to sort the array in a single pass with constant space.
 
 ### Visual Explanation
-![Sort Colors Visualization](images/sort_colors.png)
+![Sort Colors Visualization](3-5.png)
 
-![Sort Colors Visualization](images/sort-2.png)
+![Sort Colors Visualization](3-6.png)
 ---
 
 
