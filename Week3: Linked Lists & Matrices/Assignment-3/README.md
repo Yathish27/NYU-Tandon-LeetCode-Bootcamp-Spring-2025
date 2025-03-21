@@ -16,7 +16,7 @@ We use the **two-pointer technique** to solve this problem in \(O(n)\) time.
 ### Visual Explanation
 ![Two Sum II Visualization](3-1.png)
 
-![Two Sum II Visualization](3-2-2.png)
+![Two Sum II Visualization](3-2.png)
 
 ---
 
