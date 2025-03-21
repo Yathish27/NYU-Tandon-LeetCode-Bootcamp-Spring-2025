@@ -1,59 +1,72 @@
 # Algorithm Problems 
 
 This repository contains solutions algorithm problems, including **Two Sum II - Input Array Is Sorted**, **Product of Array Except Self**, and **Sort Colors**.
-## 1. Two Sum II - Input Array Is Sorted
+## 1. Palindrome Linked List
 
 ### Problem Description
-Given a 1-indexed array of integers `numbers` sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Return their indices as `[index1, index2]`.
-
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 ### Example
-Input: `numbers = [2,7,11,15], target = 9`  
-Output: `[1,2]`
 
-### Solution Explanation
-We use the **two-pointer technique** to solve this problem in \(O(n)\) time.
+Example 1:
+Input: head = [1,2,2,1]
+Output: true
+Example 2:
+
+
+Input: head = [1,2]
+Output: false
+
 
 ### Visual Explanation
-![Two Sum II Visualization](3-1.png)
+![Palindrome Linked List Visualization](3-1.png)
 
-![Two Sum II Visualization](3-2.png)
+![Palindrome Linked List Visualization](3-2.png)
 
 ---
 
-## 2. Product of Array Except Self
+## 2. Reorder List
 
 ### Problem Description
-Given an integer array `nums`, return an array `answer` such that `answer[i]` is equal to the product of all the elements of `nums` except `nums[i]`. Solve this without using division and in \(O(n)\) time.
+You are given the head of a singly linked-list. The list can be represented as:
 
+L0 → L1 → … → Ln - 1 → Ln
+Reorder the list to be on the following form:
+
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+
+ 
 ### Example
-Input: `nums = [1,2,3,4]`  
-Output: `[24,12,8,6]`
+Example 1:
 
-### Solution Explanation
-We calculate the product of elements to the left and right of each index using two passes over the array.
+
+Input: head = [1,2,3,4]
+Output: [1,4,2,3]
+
+
 
 ### Visual Explanation
-![Product of Array Except Self Visualization](3-3.png)
+![Reorder List Visualization](3-3.png)
 
-![Product of Array Except Self Visualization](3-4.png)
+![Reorder List Visualization](3-4.png)
 ---
 
-## 3. Sort Colors
+## 3. Set Matrix Zeroes
 
 ### Problem Description
-Given an array `nums` with \(n\) objects colored red (0), white (1), or blue (2), sort them in-place so that objects of the same color are adjacent and in the order red, white, and blue.
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+You must do it in place.
 
 ### Example
-Input: `nums = [2,0,2,1,1,0]`  
-Output: `[0,0,1,1,2,2]`
+Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+Output: [[1,0,1],[0,0,0],[1,0,1]]
 
-### Solution Explanation
-We use the **Dutch National Flag Algorithm** to sort the array in a single pass with constant space.
 
 ### Visual Explanation
-![Sort Colors Visualization](3-5.png)
+![Set Matrix Zeroes Visualization](3-5.png)
 
-![Sort Colors Visualization](3-6.png)
+![Set Matrix Zeroes Visualization](3-6.png)
 ---
 
 
