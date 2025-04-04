@@ -18,9 +18,9 @@ Output: false
 
 
 ### Visual Explanation
-![Palindrome Linked List Visualization](3-1.png)
+![Palindrome Linked List Visualization](4-1.png)
 
-![Palindrome Linked List Visualization](3-2.png)
+![Palindrome Linked List Visualization](4-2.png)
 
 ---
 
@@ -46,9 +46,9 @@ Output: [1,4,2,3]
 
 
 ### Visual Explanation
-![Reorder List Visualization](3-3.png)
+![Reorder List Visualization](4-3.png)
 
-![Reorder List Visualization](3-4.png)
+![Reorder List Visualization](4-4.png)
 ---
 
 ## 3. Set Matrix Zeroes
@@ -64,9 +64,9 @@ Output: [[1,0,1],[0,0,0],[1,0,1]]
 
 
 ### Visual Explanation
-![Set Matrix Zeroes Visualization](3-5.png)
+![Set Matrix Zeroes Visualization](4-5.png)
 
-![Set Matrix Zeroes Visualization](3-6.png)
+![Set Matrix Zeroes Visualization](4-6.png)
 ---
 
 
