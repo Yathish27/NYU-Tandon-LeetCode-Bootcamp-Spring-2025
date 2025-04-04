@@ -1,32 +1,72 @@
-# Week 3: Linked Lists & Matrices
+# Algorithm Problems 
 
-Welcome to the third week of our LeetCode Bootcamp. This week, we will dive into Linked Lists and Matrices in Python, alongside introducing powerful problem-solving patterns.
+This repository contains solutions algorithm problems, including **Two Sum II - Input Array Is Sorted**, **Product of Array Except Self**, and **Sort Colors**.
+## 1. Palindrome Linked List
 
-## Class Agenda (2 Hours)
+### Problem Description
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+### Example
 
-### 1. Python Overview of Linked Lists and Matrices
+Example 1:
+Input: head = [1,2,2,1]
+Output: true
+Example 2:
 
-Please review the following resources:
 
-- [Programiz: Linked List](https://www.programiz.com/dsa/linked-list)
-- [Datacamp: Linked List](https://www.datacamp.com/tutorial/python-linked-lists)
-- [Programiz: Matrix](https://www.programiz.com/python-programming/matrix)
-- [Python.org: List Data Structure](https://docs.python.org/3/tutorial/datastructures.html)
+Input: head = [1,2]
+Output: false
 
-### 2. Pattern Introduction
 
-- Fast and Slow Pointers ![Fast and Slow Pointers](./FastSlowPointers.png)
+### Visual Explanation
+![Palindrome Linked List Visualization](3-1.png)
 
-- In-place Reversal of a Linked List ![In-place Reversal of a Linked List](./InPlaceReversal.png)
+![Palindrome Linked List Visualization](3-2.png)
 
-- Matrices ![Matrices](./Matrices.png)
+---
 
-## Take-Home Problems
+## 2. Reorder List
 
-To help solidify your understanding and practice further, here are some take-home problems:
+### Problem Description
+You are given the head of a singly linked-list. The list can be represented as:
 
-1. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
-2. [Reorder List](https://leetcode.com/problems/reorder-list/description/)
-3. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
+L0 → L1 → … → Ln - 1 → Ln
+Reorder the list to be on the following form:
 
-Good luck, and happy coding!
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+
+ 
+### Example
+Example 1:
+
+
+Input: head = [1,2,3,4]
+Output: [1,4,2,3]
+
+
+
+### Visual Explanation
+![Reorder List Visualization](3-3.png)
+
+![Reorder List Visualization](3-4.png)
+---
+
+## 3. Set Matrix Zeroes
+
+### Problem Description
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+You must do it in place.
+
+### Example
+Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+Output: [[1,0,1],[0,0,0],[1,0,1]]
+
+
+### Visual Explanation
+![Set Matrix Zeroes Visualization](3-5.png)
+
+![Set Matrix Zeroes Visualization](3-6.png)
+---
+
+
