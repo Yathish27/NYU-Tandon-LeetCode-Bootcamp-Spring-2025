@@ -1,72 +1,76 @@
 # Algorithm Problems 
 
-This repository contains solutions algorithm problems, including **Two Sum II - Input Array Is Sorted**, **Product of Array Except Self**, and **Sort Colors**.
-## 1. Palindrome Linked List
+## 1.Implement Queue using Stacks
 
 ### Problem Description
-Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+
+Implement the MyQueue class:
+
+void push(int x) Pushes element x to the back of the queue.
+int pop() Removes the element from the front of the queue and returns it.
+int peek() Returns the element at the front of the queue.
+boolean empty() Returns true if the queue is empty, false otherwise.
 ### Example
 
-Example 1:
-Input: head = [1,2,2,1]
-Output: true
-Example 2:
+Input
+["MyQueue", "push", "push", "peek", "pop", "empty"]
+[[], [1], [2], [], [], []]
+Output
+[null, null, null, 1, 1, false]
 
-
-Input: head = [1,2]
-Output: false
 
 
 ### Visual Explanation
-![Palindrome Linked List Visualization](images/4-1.png)
+![Implement Queue using Stacks](images/4-1.png)
 
-![Palindrome Linked List Visualization](images/4-2.png)
+![Implement Queue using Stacks](images/4-2.png)
 
 ---
 
-## 2. Reorder List
+## 2. Decode String
 
 ### Problem Description
-You are given the head of a singly linked-list. The list can be represented as:
+Given an encoded string, return its decoded string.
 
-L0 → L1 → … → Ln - 1 → Ln
-Reorder the list to be on the following form:
+The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer.
 
-L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
-You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+You may assume that the input string is always valid; there are no extra white spaces, square brackets are well-formed, etc. Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, k. For example, there will not be input like 3a or 2[4].
+
+The test cases are generated so that the length of the output will never exceed 105.
 
  
 ### Example
 Example 1:
 
-
-Input: head = [1,2,3,4]
-Output: [1,4,2,3]
-
+Input: s = "3[a]2[bc]"
+Output: "aaabcbc"
 
 
 ### Visual Explanation
-![Reorder List Visualization](images/4-3.png)
+![Decode String](images/4-3.png)
 
-![Reorder List Visualization](images/4-4.png)
+![Decode String](images/4-4.png)
 ---
 
-## 3. Set Matrix Zeroes
+## 3. Number of People Aware of a Secret
 
 ### Problem Description
-Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+On day 1, one person discovers a secret.
 
-You must do it in place.
+You are given an integer delay, which means that each person will share the secret with a new person every day, starting from delay days after discovering the secret. You are also given an integer forget, which means that each person will forget the secret forget days after discovering it. A person cannot share the secret on the same day they forgot it, or on any day afterwards.
+
+Given an integer n, return the number of people who know the secret at the end of day n. Since the answer may be very large, return it modulo 109 + 7.
 
 ### Example
-Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
-Output: [[1,0,1],[0,0,0],[1,0,1]]
+Input: n = 6, delay = 2, forget = 4
+Output: 5
 
 
 ### Visual Explanation
-![Set Matrix Zeroes Visualization](images/4-5.png)
+![Number of People Aware of a Secret](images/4-5.png)
 
-![Set Matrix Zeroes Visualization](images/4-6.png)
+![Number of People Aware of a Secret](images/4-6.png)
 ---
 
 
