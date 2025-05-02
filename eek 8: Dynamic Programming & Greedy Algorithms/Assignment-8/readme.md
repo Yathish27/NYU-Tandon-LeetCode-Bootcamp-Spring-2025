@@ -1,85 +1,85 @@
 # Algorithm Problems 
 
-## 1.Binary Tree Right Side View
+## 1.Partition Equal Subset Sum
 
 ### Problem Description
-Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+Given an integer array nums, return true if you can partition the array into two subsets such that the sum of the elements in both subsets is equal or false otherwise.
+
+ 
 
 ### Example
 Example 1:
-Input: root = [1,2,3,null,5,null,4]
-Output: [1,3,4]
+Input: nums = [1,5,11,5]
+Output: true
+Explanation: The array can be partitioned as [1, 5, 5] and [11].
+Example 2:
+Input: nums = [1,2,3,5]
+Output: false
+Explanation: The array cannot be partitioned into equal sum subsets.
 
 ### Visual Explanation
-![BT](images/7-1.png)
+![BT](images/8-1.png)
 
-![BT](images/7-2.png)
+![BT](images/8-2.png)
 
 ---
 
 ## 2.  Rotting Oranges
 
 ### Problem Description
-You are given an m x n grid where each cell can have one of three values:
+You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
 
-0 representing an empty cell,
-1 representing a fresh orange, or
-2 representing a rotten orange.
-Every minute, any fresh orange that is 4-directionally adjacent to a rotten orange becomes rotten.
+Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
 
-Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.
+You may assume that you have an infinite number of each kind of coin.
  
 ### Example
 Example 1:
-Input: grid = [[2,1,1],[1,1,0],[0,1,1]]
-Output: 4
+
+Input: coins = [1,2,5], amount = 11
+Output: 3
+Explanation: 11 = 5 + 5 + 1
 Example 2:
 
-Input: grid = [[2,1,1],[0,1,1],[1,0,1]]
+Input: coins = [2], amount = 3
 Output: -1
-Explanation: The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.
 Example 3:
 
-Input: grid = [[0,2]]
+Input: coins = [1], amount = 0
 Output: 0
-Explanation: Since there are already no fresh oranges at minute 0, the answer is just 0.
  
 
 ### Visual Explanation
-![TopK](images/7-3.png)
+![RO](images/8-3.png)
 
-![TopK](images/7-4.png)
+![RO](images/8-4.png)
 ---
 
-## 3.Course Schedule II
+## 3.Maximum Subarray
 
 ### Problem Description
-There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.
-
-For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
-Return the ordering of courses you should take to finish all courses. If there are many valid answers, return any of them. If it is impossible to finish all courses, return an empty array.
-
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
 ### Example
 Example 1:
 
-Input: numCourses = 2, prerequisites = [[1,0]]
-Output: [0,1]
-Explanation: There are a total of 2 courses to take. To take course 1 you should have finished course 0. So the correct course order is [0,1].
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
 Example 2:
 
-Input: numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]
-Output: [0,2,1,3]
-Explanation: There are a total of 4 courses to take. To take course 3 you should have finished both courses 1 and 2. Both courses 1 and 2 should be taken after you finished course 0.
-So one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3].
+Input: nums = [1]
+Output: 1
+Explanation: The subarray [1] has the largest sum 1.
 Example 3:
 
-Input: numCourses = 1, prerequisites = []
-Output: [0]
+Input: nums = [5,4,-1,7,8]
+Output: 23
+Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
 
 ### Visual Explanation
-![CS](images/7-5.png)
+![MS](images/8-5.png)
 
-![CS](images/7-6.png)
+![MS](images/8-6.png)
 ---
 
 
