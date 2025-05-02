@@ -21,29 +21,26 @@ Explanation: The LCA of nodes 5 and 1 is 3.
 
 ---
 
-## 2. Decode String
+## 2.  Top K Frequent Elements
 
 ### Problem Description
-Given an encoded string, return its decoded string.
-
-The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer.
-
-You may assume that the input string is always valid; there are no extra white spaces, square brackets are well-formed, etc. Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, k. For example, there will not be input like 3a or 2[4].
-
-The test cases are generated so that the length of the output will never exceed 105.
-
+Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
  
 ### Example
 Example 1:
 
-Input: s = "3[a]2[bc]"
-Output: "aaabcbc"
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+Example 2:
 
+Input: nums = [1], k = 1
+Output: [1]
+ 
 
 ### Visual Explanation
-![Decode String](images/4-3.png)
+![TopK](images/6-3.png)
 
-![Decode String](images/4-4.png)
+![TopK](images/6-4.png)
 ---
 
 ## 3. Number of People Aware of a Secret
@@ -61,9 +58,9 @@ Output: 5
 
 
 ### Visual Explanation
-![Number of People Aware of a Secret](images/4-5.png)
+![Number of People Aware of a Secret](images/6-5.png)
 
-![Number of People Aware of a Secret](images/4-6.png)
+![Number of People Aware of a Secret](images/6-6.png)
 ---
 
 
