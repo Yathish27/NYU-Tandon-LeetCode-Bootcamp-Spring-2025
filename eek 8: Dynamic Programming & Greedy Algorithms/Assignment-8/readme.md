@@ -24,7 +24,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 ---
 
-## 2.  Rotting Oranges
+## 2.  Coin change
 
 ### Problem Description
 You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
