@@ -1,30 +1,23 @@
 # Algorithm Problems 
 
-## 1.Implement Queue using Stacks
+## 1.Lowest Common Ancestor of a Binary Tree
 
 ### Problem Description
-Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
-Implement the MyQueue class:
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 
-void push(int x) Pushes element x to the back of the queue.
-int pop() Removes the element from the front of the queue and returns it.
-int peek() Returns the element at the front of the queue.
-boolean empty() Returns true if the queue is empty, false otherwise.
 ### Example
 
-Input
-["MyQueue", "push", "push", "peek", "pop", "empty"]
-[[], [1], [2], [], [], []]
-Output
-[null, null, null, 1, 1, false]
-
+Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+Output: 3
+Explanation: The LCA of nodes 5 and 1 is 3.
 
 
 ### Visual Explanation
-![Implement Queue using Stacks](images/4-1.png)
+![LCA](images/6-1.png)
 
-![Implement Queue using Stacks](images/4-2.png)
+![LCA](images/6-2.png)
 
 ---
 
