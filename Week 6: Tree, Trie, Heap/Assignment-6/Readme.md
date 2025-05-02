@@ -43,24 +43,33 @@ Output: [1]
 ![TopK](images/6-4.png)
 ---
 
-## 3. Number of People Aware of a Secret
+## 3.Word Break
 
 ### Problem Description
-On day 1, one person discovers a secret.
+Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.
 
-You are given an integer delay, which means that each person will share the secret with a new person every day, starting from delay days after discovering the secret. You are also given an integer forget, which means that each person will forget the secret forget days after discovering it. A person cannot share the secret on the same day they forgot it, or on any day afterwards.
-
-Given an integer n, return the number of people who know the secret at the end of day n. Since the answer may be very large, return it modulo 109 + 7.
-
+Note that the same word in the dictionary may be reused multiple times in the segmentation.
 ### Example
-Input: n = 6, delay = 2, forget = 4
-Output: 5
+Example 1:
 
+Input: s = "leetcode", wordDict = ["leet","code"]
+Output: true
+Explanation: Return true because "leetcode" can be segmented as "leet code".
+Example 2:
+
+Input: s = "applepenapple", wordDict = ["apple","pen"]
+Output: true
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+Note that you are allowed to reuse a dictionary word.
+Example 3:
+
+Input: s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
+Output: false
 
 ### Visual Explanation
-![Number of People Aware of a Secret](images/6-5.png)
+![Word Break](images/6-5.png)
 
-![Number of People Aware of a Secret](images/6-6.png)
+![Word Break](images/6-6.png)
 ---
 
 
